@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution File : Accessible from this repository.
-- Live Site URL: [[URL](https://sproject.alwaysdata.net/)]
+- Site URL Not Live: [[URL](https://sproject.alwaysdata.net/)]
+- Live Site URL: [[URL]([https://sproject.alwaysdata.net/](https://fancy-meringue-fff280.netlify.app/))]
 
 ## My process
 
@@ -74,9 +74,7 @@ I think I've improved a little in responsive (which is my biggest problem), I've
 
 ## Author
 
-- Website - [alanpngy](https://www.your-site.com)
 - Frontend Mentor - [[@Stukima](https://www.frontendmentor.io/profile/Stukima)]
-- Twitter - [@SalamaniAlan](https://www.twitter.com/SalamaniAlan)
 
 
 ## Acknowledgments
