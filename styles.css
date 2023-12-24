@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Pbold';
+    src: url('./assets/fonts/Poppins-Bold.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'PBoldItalic';
+    src: url('./assets/fonts/Poppins-Italic.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'PExtraBold';
+    src: url('./assets/fonts/Poppins-ExtraBold.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'PExtraBoldItalic';
+    src: url('./assets/fonts/Poppins-ExtraBoldItalic.ttf') format('woff');
+}
+
+.numbers-f,
+.text-f {
+    font-family: 'PExtraBoldItalic', sans-serif;
+}
+
+
+.labels-f,
+label,
+.input-f {
+    font-family: 'Pbold', sans-serif;
+
+}
+
+.error-f {
+    font-family: 'PBoldItalic', sans-serif;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+
+<body class="bg-[#f0f1f1] flex justify-center items-center h-screen">
+    <div
+        class="bg-white rounded-[1.6rem] rounded-br-[115px] px-4 py-12 sm:px-12 min-w-[320px] max-w-[1440px] w-7/12 sm:w-9/12 md:w-8/12 lg:w-8/12 xl:w-7/12">
+
+        <div
+            class="input-container flex flex-wrap gap-4 lg:gap-8 md:mt-6 w-12/12 lg:w-9/12 md:justify-center lg:justify-start">
+            <div class="input-wrapper flex flex-col items-start flex-1 min-w-xs mb-4">
+                <label for="day" class="tracking-widest text-sm text-gray-500 mb-1 font-bold uppercase">DAY</label>
+                <input type="text" id="day" placeholder="DD"
+                    class="input-f border border-gray-300 rounded-lg  p-3 lg:p-4 text-1xl sm:text-2xl lg:text-3xl w-full focus:outline-none focus:border-[#8751fa]">
+                <span class="error-f text-[#ff6b6b] mt-2 md:text-sm text-xs font-italic" id="ErrorDay"></span>
+            </div>
+            <div class="input-wrapper flex flex-col items-start flex-1 min-w-xs mb-4">
+                <label for="month" class="tracking-widest text-sm text-gray-500 mb-1 font-bold uppercase">MONTH</label>
+                <input type="text" id="month" placeholder="MM"
+                    class="input-f border border-gray-300 rounded-lg  p-3 lg:p-4 text-1xl sm:text-2xl lg:text-3xl w-full focus:outline-none focus:border-[#8751fa]">
+                <span class="error-f text-[#ff6b6b] mt-2 md:text-sm text-xs font-italic" id="ErrorMonth"></span>
+            </div>
+            <div class="input-wrapper flex flex-col items-start flex-1 min-w-xs mb-4">
+                <label for="year" class="tracking-widest text-sm text-gray-500 mb-1 font-bold uppercase">YEAR</label>
+                <input type="text" id="year" placeholder="YYYY"
+                    class="input-f border border-gray-300 rounded-lg  p-3 lg:p-4 text-1xl sm:text-2xl lg:text-3xl w-full focus:outline-none focus:border-[#8751fa]">
+                <span class="error-f text-[#ff6b6b] mt-2 md:text-sm text-xs font-italic" id="ErrorYear"></span>
+            </div>
+        </div>
+        <div class="special relative flex items-center my-12 sm:my-16 lg:my-0">
+            <hr class="border-none h-px bg-gray-300 w-full lg:flex-grow">
+            <div
+                class="absolute left-1/2 transform -translate-x-1/2 bg-transparent lg:relative lg:left-auto lg:transform-none">
+                <img src="./assets/images/icon-arrow.svg" alt=""
+                    class="  w-14 sm:w-20 lg:w-32 submit-arrow bg-[#8751fa] rounded-full text-white p-4 sm:p-6 lg:p-7 cursor-pointer transition duration-500 ease-in-out transform hover:bg-black hover:shadow-lg lg:static">
+            </div>
+        </div>
+
+
+        <div class="age-display text-left md:p-0  lg:p-2 flex flex-col items-start gap-1">
+            <span class="text-f text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl">
+                <span class="numbers-f text-[#8751fa] text-6xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-9xl"
+                    id="years">--</span>
+                years
+            </span>
+            <span class="text-f text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl">
+                <span class="numbers-f text-[#8751fa] text-6xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-9xl"
+                    id="months">--</span> months
+            </span>
+            <span class="text-f text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl">
+                <span class="numbers-f text-[#8751fa]  text-6xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-9xl"
+                    id="days">--</span>
+                days
+            </span>
+        </div>
+    </div>
+    <script src="./age-calculator.js"></script>
+</body>
+
+</html>
