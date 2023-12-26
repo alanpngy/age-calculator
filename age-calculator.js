@@ -92,4 +92,4 @@ function calculateDifference() {
     }
 }
 
-document.querySelector('.submit-arrow').addEventListener('click', calculateDifference);
+document.querySelector('#clickb').addEventListener('click', calculateDifference);
